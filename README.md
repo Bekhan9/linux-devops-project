@@ -72,3 +72,8 @@ Common Git and Linux problems are documented in:
 docs/TROUBLESHOOTING.md
 
 The troubleshooting process includes checking Git installation, script permissions, network connectivity, repository status, and commit history.
+
+## Security Considerations
+
+Repository changes should be reviewed before merging.
+Sensitive information such as passwords and access tokens must not be stored in the repository.
