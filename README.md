@@ -77,3 +77,5 @@ The troubleshooting process includes checking Git installation, script permissio
 
 Repository changes should be reviewed before merging.
 Sensitive information such as passwords and access tokens must not be stored in the repository.
+
+Scripts should be reviewed before execution to avoid unsafe or unintended commands.
