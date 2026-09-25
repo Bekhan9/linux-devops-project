@@ -48,3 +48,27 @@ Contributors should create a separate branch for each new feature or fix.
 Changes should be tested before creating a Pull Request.
 
 Pull Requests should explain what was changed, why it was changed, and how it was tested.
+
+## Testing Process
+
+Linux administration scripts are tested directly in Ubuntu.
+
+Examples:
+
+./scripts/system_info.sh
+./scripts/disk_check.sh
+./scripts/backup.sh
+./scripts/service_check.sh
+
+Git repository changes are checked using:
+
+git status
+git log --oneline
+
+## Troubleshooting Process
+
+Common Git and Linux problems are documented in:
+
+docs/TROUBLESHOOTING.md
+
+The troubleshooting process includes checking Git installation, script permissions, network connectivity, repository status, and commit history.
